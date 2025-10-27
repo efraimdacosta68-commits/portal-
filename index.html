@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal Berita - Halaman Utama</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    .news-img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+    .sidebar-img { width: 80px; height: 60px; object-fit: cover; border-radius: 5px; }
+    a { text-decoration: none; color: #212529; }
+    a:hover { color: #0d6efd; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portal Berita</a>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <img src="https://picsum.photos/800/400" class="news-img" alt="Berita Utama">
+          <h3 class="mt-3"><a href="detail.html">Judul Berita Utama Hari Ini</a></h3>
+          <p class="text-muted">Admin | 26 Oktober 2025</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl ut massa fermentum porttitor...</p>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <img src="https://picsum.photos/400/250" class="news-img" alt="Berita">
+          <h5 class="mt-2"><a href="detail.html">Judul Berita Kedua</a></h5>
+          <p class="text-muted">Admin | 26 Oktober 2025</p>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <img src="https://picsum.photos/401/251" class="news-img" alt="Berita">
+          <h5 class="mt-2"><a href="detail.html">Judul Berita Ketiga</a></h5>
+          <p class="text-muted">Editor | 25 Oktober 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <h5 class="mb-3">Berita Populer</h5>
+      <div class="d-flex mb-3">
+        <img src="https://picsum.photos/80/60" class="sidebar-img me-3">
+        <div><a href="detail.html"><strong>Judul Populer 1</strong></a><br><small class="text-muted">24 Oktober 2025</small></div>
+      </div>
+      <div class="d-flex mb-3">
+        <img src="https://picsum.photos/81/61" class="sidebar-img me-3">
+        <div><a href="detail.html"><strong>Judul Populer 2</strong></a><br><small class="text-muted">23 Oktober 2025</small></div>
+      </div>
+      <div class="d-flex mb-3">
+        <img src="https://picsum.photos/82/62" class="sidebar-img me-3">
+        <div><a href="detail.html"><strong>Judul Populer 3</strong></a><br><small class="text-muted">22 Oktober 2025</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-light text-center py-3 mt-4">
+  &copy; 2025 Portal Berita | Semua Hak Dilindungi
+</footer>
+</body>
+</html>
